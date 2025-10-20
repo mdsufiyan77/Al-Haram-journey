@@ -1,9 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import umrahStandard from '../../assets/umrahstandard.jpg';
-import umrahPremium from '../../assets/umrahpremium.jpg';
-import hajjEconomy from '../../assets/hajjeconomy.jpg';
-import hajjDeluxe from '../../assets/hajjdeluxe.jpg';
+import umrahstandard from '../../assets/umrahStandard.jpg';
+import umrahpremium from '../../assets/umrahPremium.jpg';
+import hajjeconomy from '../../assets/hajjEconomy.jpg';
+import hajjdeluxe from '../../assets/hajjDeluxe.jpg';
 
 const PackageTour = () => {
   const handleWhatsAppClick = (packageDetails) => {
@@ -31,7 +31,7 @@ Price: ${packageDetails.price}`;
         "Group transportation",
         "Basic guided tours",
       ],
-      image: umrahStandard,
+      image: umrahstandard,
     },
     {
       title: "Umrah Premium",
@@ -45,7 +45,7 @@ Price: ${packageDetails.price}`;
         "Private transportation",
         "Comprehensive guided tours",
       ],
-      image: umrahPremium,
+      image: umrahpremium,
       highlight: "Most Popular",
     },
     {
@@ -60,7 +60,7 @@ Price: ${packageDetails.price}`;
         "Private luxury transportation",
         "Exclusive guided tours and experiences",
       ],
-      image: hajjEconomy,
+      image: hajjeconomy,
     },
     {
       title: "Hajj Deluxe",
@@ -74,7 +74,7 @@ Price: ${packageDetails.price}`;
         "Private transfers",
         "Tailored guided rituals & experiences",
       ],
-      image: hajjDeluxe,
+      image: hajjdeluxe,
     },
   ];
 
